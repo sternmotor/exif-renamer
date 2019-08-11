@@ -2,9 +2,9 @@
 Rename photo files based on exif date - combine multiple photographers work
 
 ## Description
-After holidays with friends or other situations where photos are taken from different cameras, it is hard to sort those photos by filename. Creation date is mangled due to copy actions. 
+After holidays with friends or other situations where photos are taken from different cameras, it is hard to sort those photos by filename. Creation date may be mangled due to copy actions. 
 
-This script helps sorting this files by renaming them so file name starts with date info found in exif data. 
+This script helps sorting this files by renaming them so file name starts with date info found in exif data. Just call this script from command line while in the directory where all photos are kept. All sub-directories are handled recursively. 
 
 The original file name is kept as-is and is just appended to the time stamp. Thus, file names look like
 
