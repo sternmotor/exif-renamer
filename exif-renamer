@@ -22,8 +22,6 @@ import logging
 logging.basicConfig(level=logging.INFO)
 log= logging.getLogger(__name__)
 
-#WORKING_DIR = '/Users/gunnar/Documents/exif'
-#WORKING_DIR = '/Users/gunnar/Pictures/Fotos/Sammlung/date/gunnar'
 WORKING_DIR = '.'
 
 # case insensitive file extensions for filtering work dir
