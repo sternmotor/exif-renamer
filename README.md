@@ -6,6 +6,10 @@ After holidays with friends or other situations where photos are taken from diff
 
 This script helps sorting this files by renaming them so file name starts with date info found in exif data. Just call this script from command line while in the directory where all photos are kept. All sub-directories are handled recursively. 
 
+Make sure all cameras have their date and time set up properly prior to shooting.
+
+## Details
+
 The original file name is kept as-is and is just appended to the time stamp. Thus, file names look like
 
 ```
@@ -21,4 +25,6 @@ In case there is no exif information, the script tries to retrieve date info fro
 
 ## TODO
 * Implement argparse for selecting working dir and verbosity
-* Implement reading files from stdin so drag 'n drop is working on desktop
+* Implement reading files from stdin so drag 'n drop is working on desktop:
+  * script called from command line with no arguments: walk current directory
+  * (multiple) path(es) given: walk direktories, handle single files given
